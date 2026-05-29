@@ -1,0 +1,32 @@
+{
+  "name": "contextbolt-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for ContextBolt — search and save your bookmarks from inside Claude Desktop or Claude Code.",
+  "type": "module",
+  "bin": "index.js",
+  "main": "./index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "bookmarks",
+    "contextbolt"
+  ],
+  "author": "ContextBolt",
+  "license": "MIT",
+  "homepage": "https://contextbolt.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contextbolt/mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://contextbolt.com/support/"
+  }
+}
