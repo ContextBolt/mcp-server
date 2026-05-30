@@ -42,11 +42,13 @@ Add to `.mcp.json` in any project, or `~/.claude/mcp.json` for global use. The U
 
 ## Tools
 
-- `search_bookmarks(query, limit?, platform?)` — semantic search across your saved content
-- `list_clusters()` — your topic clusters with bookmark counts
-- `get_cluster_bookmarks(cluster_id, limit?)` — all bookmarks in one cluster
-- `get_recent_bookmarks(limit?, platform?)` — most recently saved bookmarks
-- `save_bookmark(url, content, title?, author?, tags?)` — create a new bookmark while chatting
+- `search_bookmarks(query, limit?, platform?)`: semantic search across your saved content
+- `list_clusters()`: your topic clusters with bookmark counts
+- `get_cluster_bookmarks(cluster_id, limit?)`: all bookmarks in one cluster
+- `get_recent_bookmarks(limit?, platform?)`: most recently saved bookmarks
+- `save_bookmark(url, content, title?, author?, tags?)`: create a new bookmark while chatting
+
+The server lists its tools without a token, so clients and registries can discover them. A Pro token (`CONTEXTBOLT_TOKEN`) is only required to actually call a tool.
 
 ## Troubleshooting
 
